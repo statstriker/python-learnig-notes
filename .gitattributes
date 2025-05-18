@@ -18,3 +18,13 @@ new_num = int(name1)
 
 print(new_num,type(new_num))
 
+
+#print
+
+print('Hi','Mike',end='\n') #Hi Mike
+print('Hi','Mike',sep=',',end='\n') #Hi,Mike
+
+print('Hi','Mike',sep=',',end='')
+print('Hi','Mike',sep=',',end='') #Hi,MikeHi,Mike
+
+
