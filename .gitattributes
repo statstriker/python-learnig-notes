@@ -73,7 +73,7 @@ print(result)
 y = math.log2(10) #3.321928094887362
 print(y)
 
-print(help(math)) #tell you detail math function
+print(help(math)) #math関数について確認
 
 #文字列
 
