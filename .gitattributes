@@ -16,9 +16,9 @@ print(is_ok,type(is_ok))
 
 num = name  #numにnameを代入する
 
-name1 = '1' #1nameとは書けない
+name1 = '1' #注意1nameとは書けない
 
-new_num = int(name1)
+new_num = int(name1)　　#型変換ができる
 
 print(new_num,type(new_num))
 
@@ -34,7 +34,7 @@ print('Hi','Mike',sep=',',end='') #Hi,MikeHi,Mike
 #数値
 
 
-#対話型シェルで実験してみる
+#今回は対話型シェルで実験してみる
 
 2+2 #4
 
@@ -76,7 +76,7 @@ print(result)
 y = math.log2(10) #3.321928094887362
 print(y)
 
-print(help(math)) #math関数について確認
+print(help(math)) #help関数を用いてmath関数について確認できる
 
 #文字列
 
@@ -84,7 +84,7 @@ print('Hello')
 print("Hello")
 print('I don't know ')   '  #発言が途中で止まってしまう
 
-print('I don\'t know ')　　#\'とすることで''が途中で途切れないようにしている
+print('I don\'t know ')　　#\'とすることで''が途中で途切れないようにしている。バックスラッシュをつける
 print("I don't know")
 
 print('say "I don\'t know"')
@@ -148,12 +148,14 @@ print(s.upper())
 print(s.lower())
 print(s.replace('Mike','Nancy'))
 
+#メソッドについては、pythonに触れていくにつれて、記憶できるようになっていく
+
 #文字の代入
 
 a ='a'
 print(f'a is {a}')
 
-x, y, z = 1, 2, 3
+x, y, z = 1, 2, 3　#タプルのアンパッキング
 print('a is {x} {y} {z}')
 print('a is {z} {y} {x}')
 
@@ -163,6 +165,7 @@ family = 'Sakai'
 print(f'My name is {name} {family}. I am {family} {name}')  #何度も'を使って接続する必要がないため便利
 
 str(1)  #型が変換できる。この例では1をint型からstr型に変換している
+
 
 
 
