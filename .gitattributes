@@ -1,25 +1,29 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-#variable declaration
+
+#udemy講座　現役シリコンバレーエンジニアが教えるpython3入門＋応用＋アメリカのシリコンバレー流コードスタイル
+
+
+#変数宣言
 
 num = 1
 name = 'Mike'
 is_ok = True
 
-print(num,type(num))      #type tells you type of variable
+print(num,type(num))      #numのタイプがわかる
 print(name,type(name))
 print(is_ok,type(is_ok))
 
-num = name  #num change int into str
+num = name  #numにnameを代入する
 
-name1 = '1' #you can't write 1name
+name1 = '1' #1nameとは書けない
 
 new_num = int(name1)
 
 print(new_num,type(new_num))
 
 
-#print
+#まずはprintで出力
 
 print('Hi','Mike',end='\n') #Hi Mike
 print('Hi','Mike',sep=',',end='\n') #Hi,Mike
@@ -27,7 +31,7 @@ print('Hi','Mike',sep=',',end='\n') #Hi,Mike
 print('Hi','Mike',sep=',',end='')
 print('Hi','Mike',sep=',',end='') #Hi,MikeHi,Mike
 
-#int
+#数値
 
 2+2 #4
 
@@ -70,6 +74,19 @@ y = math.log2(10) #3.321928094887362
 print(y)
 
 print(help(math)) #tell you detail math function
+
+#文字列
+
+print('Hello')
+print("Hello")
+print('I don't know ')   '  #発言が途中で止まってしまう
+
+print('I don\'t know ')　　#\'とすることで''が途中で途切れないようにしている
+print("I don't know")
+
+print('say "I don\'t know"')
+print("say \"I don't know\"")
+
 
 
 
