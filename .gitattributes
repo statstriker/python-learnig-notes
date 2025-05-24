@@ -91,7 +91,7 @@ print('say "I don\'t know"')
 print("say \"I don't know\"")
 
 print("###########################################")
-print("""\    #バックスラッシュを空白行をなくすことができる
+print("""\    #バックスラッシュにより空白行をなくすことができる
 line1
 line2
 line3\
@@ -110,6 +110,26 @@ s = ("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
      "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")   コードが長くわかりにくいため、こう表現するほうがきれい
 
 print(s)
+
+#文字列のインデックスとパラドックス
+
+word = 'python'
+print(word[0])
+print(word[1])
+print([-1])  #最後の文字の表示ができる
+
+print(word[0:2])  #print(word[:2])とするのと変わらない
+　　　　　　　　　　　#二番目の手前の文字までを出力する(py)
+print(word[2:5])
+
+word[0] = 'j'  これはエラーがでる
+
+word = 'j' + word[1:]
+
+print(word[:]) #wordのコピーができる
+
+n = len(word)  #文字数がわかる関数len
+
 
 
 
