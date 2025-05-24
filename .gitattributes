@@ -104,7 +104,7 @@ print('py'  'thon')     #きれいに出力される
 
 prefix = 'py'
 
-print(prefix 'thon')  #変数にthonつなげるのは負荷
+print(prefix 'thon')  #変数にthonつなげるのは不可能
 
 s = ("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
      "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")   コードが長くわかりにくいため、こう表現するほうがきれい
