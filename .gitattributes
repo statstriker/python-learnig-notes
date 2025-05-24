@@ -98,6 +98,20 @@ line3\
 """)         #""""""で改行は自動的に実行される
 print("###########################################")
 
+print('hi' * 3 + 'mike')
+
+print('py'  'thon')     #きれいに出力される
+
+prefix = 'py'
+
+print(prefix 'thon')  #変数にthonつなげるのは負荷
+
+s = ("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+     "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")   コードが長くわかりにくいため、こう表現するほうがきれい
+
+print(s)
+
+
 
 
 
