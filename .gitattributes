@@ -251,6 +251,37 @@ y=[6,7,8,9,10]
 x.extend(y) #xにyを追加する　x += yと同義
 
 #リストのメソッド
+
+r =[1,2,3,4,5,1,2,3]
+r.index(3) #3が0番目からどこにありますか
+
+r.index(3,3) #左がvalue、右がstartなので三番目から3を0番目からどこにあるかを知るメソッド
+
+r.count(3) #3がいくつありますか
+
+if 5 in r:
+    print('exist')
+
+r.sort()
+print(r)  #きれいにソートしてくれる
+
+r.sort(reverse = True)
+print(r) #反対向きにリストが出力される
+
+r.reverse()
+print(r)  #また反対向きにリストを並べ替えるメソッド
+
+s = 'My name is Mike'
+to_split = s.split(' ')
+print(to_split) #空白行をいれてsplitのメソッドを実行するとリストに変換してくれる
+　　#空白行＝,（My name is Mike の空白行を変更する）
+
+x = ' '.join(to_split)   #joinはto_splitを空白行をいれ文をつなげてくれる
+print(x)
+
+
+print(help(list)  #listのドキュメントが出力される
+
 #リストのコピー
 #リストの使い所
 #タプル型
