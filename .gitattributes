@@ -283,6 +283,36 @@ print(x)
 print(help(list)  #listのドキュメントが出力される
 
 #リストのコピー
+
+i = [1,2,3,4,5]
+j = i　　#参照渡し（リストやディクショナリー）
+j[0] = 100  #i,jともに変換されてしまう
+print('j=' , j)
+print('i=' , i)
+
+x = [1,2,3,4,5]
+y = x.copy()　#y = x[:]でもOKだがわかりづらい
+#値渡し
+y[0] = 100 #x,yともに変換されずyのみ変換される
+print('x=', x)
+print('y=', y)
+
+x = 20
+y = x
+y = 5
+print(id(x)) #番地（ID)を教えてくれる
+print(id(y))
+print(y)
+print(x)
+
+x = ['a','b']
+y = x
+y[0] = 'p'
+print(id(x))
+print(id(y))
+print(y)
+print(x)
+
 #リストの使い所
 #タプル型
 #タプルのアンパッキング
