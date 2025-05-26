@@ -314,6 +314,45 @@ print(y)
 print(x)
 
 #リストの使い所
+
+#タクシードライバーが乗客をのせてある目的地には飛ぶゲームがあるとする。このときの座席指定
+#対話型シェルを用いる
+seat = []
+
+>>>min = 0
+>>>max = 5
+>>>min <= len(seat) < max
+True
+
+>>>seat.append('p')
+>>>min <= len(seat) < max
+True
+
+>>>len(seat)
+1
+
+>>>seat.append('p')
+>>>min <= len(seat) < max
+True
+
+>>>len(seat)
+2
+
+>>>seat.append('p')
+>>>seat.append('p')
+>>>seat.append('p')
+
+>>>min <= len(seat) < max
+False
+
+>>>len(seat)
+5
+
+>>>seat.pop(0)
+'p'
+
+>>>min <= len(seat) < max
+True
 #タプル型
 #タプルのアンパッキング
 #タプルの使い所
